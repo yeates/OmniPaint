@@ -11,8 +11,6 @@
   <a href="https://arxiv.org/pdf/2503.08677"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg"></a>
   &nbsp;
   <a href="https://www.yongshengyu.com/OmniPaint-Page/"><img src="https://img.shields.io/badge/Website-Project-A55D35"></a>
-  &nbsp;
-  <a href="https://github.com/yeates/OmniPaint"><img src="https://visitor-badge.laobi.icu/badge?page_id=yeates.OmniPaint" style="display: none;"></a>
 </p>
 
 ---
@@ -47,3 +45,7 @@ This repository will provide the official PyTorch implementation of **OmniPaint*
 ## ⚠️ Disclaimer
 
 This repository is part of an open-source research initiative provided for academic and research purposes only.
+
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=yeates.OmniPaint" width="1">
+</div>
