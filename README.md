@@ -10,7 +10,9 @@
 <p align="center">
   <a href="https://arxiv.org/pdf/2503.08677"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg"></a>
   &nbsp;
-  <a href="https://www.yongshengyu.com/OmniPaint-Page/"><img src="https://img.shields.io/badge/Website-Project-A55D35"></a>
+  <a href="https://www.yongshengyu.com/OmniPaint-Page/"><img src="https://img.shields.io/badge/Website-Project-6535a0"></a>
+  &nbsp;
+  <a href="https://269aaca1b2d547960a.gradio.live"><img src="https://img.shields.io/badge/Demo-Gradio-f07700"></a>
 </p>
 
 ---
@@ -35,11 +37,12 @@ This repository will provide the official PyTorch implementation of **OmniPaint*
 
 ## Coming Soon
 
+- [x] Demo application
 - [ ] Model weights
 - [ ] Training and inference code
 - [ ] Dataset
 - [ ] Evaluation metrics
-- [ ] Demo application
+- [ ] CFD evaluation code
 
 
 ## ⚠️ Disclaimer
