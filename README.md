@@ -12,7 +12,7 @@
   &nbsp;
   <a href="https://www.yongshengyu.com/OmniPaint-Page/"><img src="https://img.shields.io/badge/Website-Project-6535a0"></a>
   &nbsp;
-  <a href="https://8c3e3acba57208ec74.gradio.live"><img src="https://img.shields.io/badge/Demo-Gradio-f07700"></a>
+  <a href="https://a805fd49ada0a18635.gradio.live"><img src="https://img.shields.io/badge/Demo-Gradio-f07700"></a>
 </p>
 
 ---
