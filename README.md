@@ -5,6 +5,7 @@
 </p> -->
 
 <h1 align="center">OmniPaint: Mastering Object-Oriented Editing via Disentangled Insertion-Removal Inpainting</h1>
+<h3 align="center">ICCV 2025</h3>
 <!-- <h3 align="center">arXiv 2025</h3> -->
 
 <p align="center">
@@ -12,11 +13,13 @@
   &nbsp;
   <a href="https://www.yongshengyu.com/OmniPaint-Page/"><img src="https://img.shields.io/badge/Website-Project-6535a0"></a>
   &nbsp;
-  <a href="https://d9a91d69dfba291a50.gradio.live/"><img src="https://img.shields.io/badge/Demo-Gradio-f07700"></a>
+  <a href="https://77c139149131d87d4e.gradio.live"><img src="https://img.shields.io/badge/Demo-Gradio-f07700"></a>
 </p>
 
----
+## 🔥🔥🔥 News!!
+*[July 21, 2025] OmniPaint is now live — you can try editing images directly in the online demo! [Online Demo](https://77c139149131d87d4e.gradio.live). For batch inference requests, please use this [form](https://forms.gle/pADR9j9P189Ag8sTA).
 
+---
 > **🚨 CODE COMING SOON! Please stay tuned...**
 
 This repository will provide the official PyTorch implementation of **OmniPaint**, a framework that re-conceptualizes object removal and insertion as interdependent processes.
@@ -38,6 +41,7 @@ This repository will provide the official PyTorch implementation of **OmniPaint*
 ## Coming Soon
 
 - [x] Demo application
+- [x] Batch inference request form
 - [ ] Model weights
 - [ ] Training and inference code
 - [ ] Dataset
