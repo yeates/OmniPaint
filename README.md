@@ -17,7 +17,7 @@
 </p>
 
 ## 🔥🔥🔥 News!!
-*[July 21, 2025] OmniPaint is now live — you can try editing images directly in the online demo! [Online Demo](https://77c139149131d87d4e.gradio.live). For batch inference requests, please use this [form](https://forms.gle/pADR9j9P189Ag8sTA).
+*[July 21, 2025] OmniPaint is now live! you can try editing images directly in the [online demo](https://77c139149131d87d4e.gradio.live)! For batch inference requests, please use this [form](https://forms.gle/pADR9j9P189Ag8sTA).
 
 ---
 > **🚨 CODE COMING SOON! Please stay tuned...**
