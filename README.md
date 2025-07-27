@@ -13,11 +13,11 @@
   &nbsp;
   <a href="https://www.yongshengyu.com/OmniPaint-Page/"><img src="https://img.shields.io/badge/Website-Project-6535a0"></a>
   &nbsp;
-  <a href="https://a61c2d7df3487d1bf7.gradio.live"><img src="https://img.shields.io/badge/Demo-Gradio-f07700"></a>
+  <a href="https://dd4030b1129f5d387e.gradio.live"><img src="https://img.shields.io/badge/Demo-Gradio-f07700"></a>
 </p>
 
 ## 🔥🔥🔥 News!!
-[July 21, 2025] **OmniPaint** is now live! You can try editing images directly in the [online demo](https://a61c2d7df3487d1bf7.gradio.live)! For batch inference requests, please use this [form](https://forms.gle/pADR9j9P189Ag8sTA).
+[July 21, 2025] **OmniPaint** is now live! You can try editing images directly in the [online demo](https://dd4030b1129f5d387e.gradio.live)! For batch inference requests, please use this [form](https://forms.gle/pADR9j9P189Ag8sTA).
 
 ---
 > **🚨 CODE COMING SOON! Please stay tuned...**
