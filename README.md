@@ -32,6 +32,15 @@ This repository will provide the official PyTorch implementation of **OmniPaint*
   <img src="assets/insertion_demo.gif" style="width:85%;" />
 </p>
 
+## CFD Score
+Follow the steps below to use CFD score, set up the environment, and install dependencies. The code is tested on **Python 3.10**.
+```bash
+cd cfd_score
+./environment.sh
+./run_cfd.sh
+```
+
+
 ## Features
 
 - 🧹 **Object Removal** - Remove foreground objects and their effects using only object masks
