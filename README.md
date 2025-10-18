@@ -18,6 +18,7 @@
 
 ## 🔥🔥🔥 News!!
 [October 18, 2025] **CFD Score** is released! CFD Score is reference-free evaluation of object removal quality.
+
 [July 21, 2025] **OmniPaint** is now live! You can try editing images directly in the [online demo](https://7d71823049c6198a3f.gradio.live)! For batch inference requests, please use this [form](https://forms.gle/pADR9j9P189Ag8sTA).
 
 ---
