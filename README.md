@@ -16,15 +16,7 @@
   <a href="https://7d71823049c6198a3f.gradio.live"><img src="https://img.shields.io/badge/Demo-Gradio-f07700"></a>
 </p>
 
-## 🔥🔥🔥 News!!
-[October 18, 2025] **CFD Score** is released! CFD Score is a reference-free evaluation metric for object removal quality.
 
-[July 21, 2025] **OmniPaint** is now live! You can try editing images directly in the [online demo](https://7d71823049c6198a3f.gradio.live)! For batch inference requests, please use this [form](https://forms.gle/pADR9j9P189Ag8sTA).
-
----
-> **🚨 CODE COMING SOON! Please stay tuned...**
-
-This repository will provide the official PyTorch implementation of **OmniPaint**, a framework that re-conceptualizes object removal and insertion as interdependent processes.
 
 <p align="center">
   <img src="assets/removal_demo.gif" style="width:85%;" />
@@ -34,14 +26,6 @@ This repository will provide the official PyTorch implementation of **OmniPaint*
   <img src="assets/insertion_demo.gif" style="width:85%;" />
 </p>
 
-## CFD Score
-Follow the steps below to use CFD score, set up the environment, and install dependencies. The code is tested on **Python 3.10**.
-```bash
-cd cfd_score
-./environment.sh
-./run_cfd.sh
-```
-
 
 ## Features
 
@@ -49,20 +33,92 @@ cd cfd_score
 - 🖼️ **Object Insertion** - Seamless generative insertion of objects into existing scenes
 - 📊 **Novel CFD Metric** - Reference-free evaluation of object removal quality
 
-## Coming Soon
 
-- [x] Demo application
-- [x] Batch inference request form
-- [ ] Model weights
-- [ ] Training and inference code
-- [ ] Dataset
-- [ ] Evaluation metrics
-- [ ] CFD evaluation code
+## Setup
+
+Install dependencies and download OmniPaint weights:
+  ```bash
+  bash scripts/setup.sh
+  ```
+  Run this from the repository root. 
 
 
-## ⚠️ Disclaimer
+## Usage
 
-This repository is part of an open-source research initiative provided for academic and research purposes only.
+### CLI - Object Removal
+- Single image:
+```bash
+python scripts/omnipaint_remove.py \
+  --input ./demo_assets/removal_samples/images/5.jpg \
+  --mask ./demo_assets/removal_samples/masks/5.png \
+  --output_dir ./outputs \
+  --seed 42 \
+  --steps 28 \
+  --device cuda:0
+```
+
+- Directory:
+```bash
+python scripts/omnipaint_remove.py \
+  --input ./demo_assets/removal_samples/images \
+  --mask ./demo_assets/removal_samples/masks \
+  --output_dir ./outputs \
+  --seed 42 \
+  --steps 28 \
+  --device cuda:0
+```
+
+### CLI - Object Insertion
+- Single image:
+```bash
+python scripts/omnipaint_insert.py \
+  --background ./demo_assets/insertion_samples/backgrounds/background-2.png \
+  --mask ./demo_assets/insertion_samples/masks/mask-2.png \
+  --subject ./demo_assets/insertion_samples/subjects/subject-2.png \
+  --output_dir ./outputs \
+  --seed 42 \
+  --steps 28 \
+  --device cuda:0 \
+  --carvekit_device cuda:0
+```
+
+- Directory:
+```bash
+python scripts/omnipaint_insert.py \
+  --background ./demo_assets/insertion_samples/backgrounds \
+  --mask ./demo_assets/insertion_samples/masks \
+  --subject ./demo_assets/insertion_samples/subjects \
+  --output_dir ./outputs \
+  --seed 42 \
+  --steps 28 \
+  --device cuda:0 \
+  --carvekit_device cuda:0
+```
+
+### Demo App
+
+The demo app supports both manual mask drawing and automatic mask generation using segmentation model.
+
+- Gradio environment setup:
+  ```bash
+  bash scripts/app_setup.sh
+  ```
+  Run this if you plan to launch `app.py`. The installation may take around 15 minutes due to SAM2 setup and weight downloads.
+
+- Run the app:
+  ```bash
+  python app.py
+  ```
+
+### Notes
+- Directory mode expects the following structure by default:
+  - Removal: `demo_assets/removal_samples/images/*.{jpg,png,...}` with matching masks in `demo_assets/removal_samples/masks/*.{jpg,png,...}` (same basenames).
+  - Insertion: `demo_assets/insertion_samples/backgrounds/background-XX.png`, masks in `demo_assets/insertion_samples/masks/mask-XX.png`, subjects in `demo_assets/insertion_samples/subjects/subject-XX.png`. Direct basename alignment also works.
+- Mask quality strongly affects insertion performance. Prefer a single connected-component mask; avoid multiple disconnected masks.
+
+### Evaluation - CFD Score
+See [cfd_score](cfd_score/) for setup and usage.
+
 
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=yeates.OmniPaint" width="1">
