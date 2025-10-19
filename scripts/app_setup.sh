@@ -46,6 +46,8 @@ pip install carvekit
 pip install opencv-python==4.8.0.74
 pip install numpy==1.26.4
 pip install diffusers==0.31.0
+pip install hydra-core
+pip install matplotli
 
 cd ..
 python app.py
