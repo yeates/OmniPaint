@@ -13,7 +13,9 @@
   &nbsp;
   <a href="https://www.yongshengyu.com/OmniPaint-Page/"><img src="https://img.shields.io/badge/Website-Project-6535a0"></a>
   &nbsp;
-  <a href="https://7d71823049c6198a3f.gradio.live"><img src="https://img.shields.io/badge/Demo-Gradio-f07700"></a>
+  <a href="https://huggingface.co/spaces/zengziyun/OmniPaint"><img src="https://img.shields.io/badge/HuggingFace-Space-FFD21E?logo=huggingface&logoColor=FFD21E"></a>
+  &nbsp;
+  <a href="https://huggingface.co/datasets/yeates/omnipaint-bench"><img src="https://img.shields.io/badge/HuggingFace-Dataset-FFD21E?logo=huggingface&logoColor=FFD21E"></a>
 </p>
 
 
