@@ -13,7 +13,7 @@
   &nbsp;
   <a href="https://www.yongshengyu.com/OmniPaint-Page/"><img src="https://img.shields.io/badge/Website-Project-6535a0"></a>
   &nbsp;
-  <a href="https://f5630dc444dd98aadf.gradio.live/"><img src="https://img.shields.io/badge/Gradio-Demo-FFD21E"></a>
+  <a href="https://857109156846ad4e8f.gradio.live/"><img src="https://img.shields.io/badge/Gradio-Demo-FFD21E"></a>
   &nbsp;
   <!-- <a href="https://huggingface.co/spaces/zengziyun/OmniPaint"><img src="https://img.shields.io/badge/HuggingFace-Space-FFD21E?logo=huggingface&logoColor=FFD21E"></a>
   &nbsp; -->
