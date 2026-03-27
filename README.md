@@ -129,3 +129,16 @@ See [cfd_score](cfd_score/) for setup and usage.
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=yeates.OmniPaint" width="1">
 </div>
+
+## Citation
+
+If you find OmniPaint useful, please cite our paper:
+
+```bibtex
+@inproceedings{yu2025omnipaint,
+  title={Omnipaint: Mastering object-oriented editing via disentangled insertion-removal inpainting},
+  author={Yu, Yongsheng and Zeng, Ziyun and Zheng, Haitian and Luo, Jiebo},
+  booktitle={ICCV},
+  pages={17324--17334},
+  year={2025}
+}
