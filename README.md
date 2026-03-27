@@ -15,6 +15,8 @@
   &nbsp;
   <a href="https://857109156846ad4e8f.gradio.live/"><img src="https://img.shields.io/badge/Gradio-Demo-FFD21E"></a>
   &nbsp;
+  <a href="https://huggingface.co/yeates/OmniPaint"><img src="https://img.shields.io/badge/HuggingFace-Model-FFD21E?logo=huggingface&logoColor=FFD21E"></a>
+  &nbsp;
   <!-- <a href="https://huggingface.co/spaces/zengziyun/OmniPaint"><img src="https://img.shields.io/badge/HuggingFace-Space-FFD21E?logo=huggingface&logoColor=FFD21E"></a>
   &nbsp; -->
   <a href="https://huggingface.co/datasets/yeates/omnipaint-bench"><img src="https://img.shields.io/badge/HuggingFace-Dataset-FFD21E?logo=huggingface&logoColor=FFD21E"></a>
@@ -47,9 +49,9 @@ Install dependencies and download OmniPaint weights:
   Run this from the repository root. 
 
 
-## Usage
+## Code Usage
 
-### CLI - Object Removal
+### Object Removal
 - Single image:
 ```bash
 python scripts/omnipaint_remove.py \
@@ -72,7 +74,7 @@ python scripts/omnipaint_remove.py \
   --device cuda:0
 ```
 
-### CLI - Object Insertion
+### Object Insertion
 - Single image:
 ```bash
 python scripts/omnipaint_insert.py \
